@@ -13,6 +13,7 @@ header{
 	background: url(img/fondo.jpg);
 	color: #790909;
 	height: 25em;
+	padding-top: 2em;
 	text-align: center;
 }
 
@@ -30,8 +31,8 @@ figure{
 
 	.logo{
 		background: peru;
-		width: 10em;
-		height: 11em;		
+		width: 16em;
+		height: 16em;		
 		padding: 0;
 		margin: 0;
 		top: 6em;
