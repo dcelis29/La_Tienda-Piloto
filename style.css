@@ -1,0 +1,55 @@
+@font-face {
+	font-family: 'icomoon';
+	src:url('fonts/icomoon.eot?-pkg9dp');
+	src:url('fonts/icomoon.eot?#iefix-pkg9dp') format('embedded-opentype'),
+		url('fonts/icomoon.ttf?-pkg9dp') format('truetype'),
+		url('fonts/icomoon.woff?-pkg9dp') format('woff'),
+		url('fonts/icomoon.svg?-pkg9dp#icomoon') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+	font-family: 'icomoon';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.icon-home3:before {
+	content: "\e602";
+}
+.icon-bullhorn:before {
+	content: "\e603";
+}
+.icon-glass:before {
+	content: "\e604";
+}
+.icon-mug:before {
+	content: "\e601";
+}
+.icon-spoon-knife:before {
+	content: "\e600";
+}
+.icon-lab:before {
+	content: "\e605";
+}
+.icon-facebook2:before {
+	content: "\e606";
+}
+.icon-instagram:before {
+	content: "\e607";
+}
+.icon-twitter:before {
+	content: "\e608";
+}
+.icon-youtube3:before {
+	content: "\e609";
+}
