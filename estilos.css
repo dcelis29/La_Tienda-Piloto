@@ -121,6 +121,16 @@ figure{
 }
 
 .post{
+	background: url(img/desayuno1.jpg);
+	background-size: cover;
 	width: 100%;
 	height: 30em;
 }
+
+@media screen and (min-width: 640px){
+	.post{
+		background: url(img/desayuno1.png);
+		width: 100%;
+		height: 30em;
+		}
+	}
