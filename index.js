@@ -1,4 +1,4 @@
-(function()){
+function(){
 	if(navigator.geolocation){
 		navigator.geolocation.getCurrentPosition(getCoords, errorFounds);	
 	}else{
