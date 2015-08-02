@@ -1,6 +1,6 @@
-(function(){
+(function() {
 	if(navigator.geolocation){
-		navigator.geolocation.getCurrentPosition(getCoords, errorFounds);	
+		navigator.geolocation.getCurrentPosition(getCoords, errorFound);	
 	}else{
 		alert("Actualiza tu navegador");	
 	}
