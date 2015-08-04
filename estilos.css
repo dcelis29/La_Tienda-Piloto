@@ -120,17 +120,52 @@ figure{
 	color: olive;
 }
 
-.post{
-	background: url(img/desayuno1.jpg);
-	background-size: cover;
-	width: 100%;
-	height: 30em;
+.galeria_list{
+	margin: 0 auto;
+	padding: 0;
+	text-align: center;
 }
-
-@media screen and (min-width: 1000px){
-	.post{
-		background: url(img/desayuno1.png);
-		width: 100%;
-		height: 30em;
-		}
+	.galeria_post figure{
+		
 	}
+	
+	.post_header{
+		background: white;
+	}
+		.post_header h2{
+			color: indianred;
+			font-size: 1em;
+			font-family: montserrat, helvetica;
+			padding: 0.4em 0;
+			text-transform: uppercase;
+		}
+			.galeria_list li{
+				display: inline-block;
+				margin: 1em 2em;
+				-webkit-box-shadow: 3px 3px 10px 3px rgba(5,5,5,5);
+				box-shadow: 3px 3px 10px 3px rgba(5,5,5,5);	
+				width: 20%;
+			}
+				.galeria_post{
+					margin: 0 auto;
+				}
+					.galeria_img{
+						width: 100%;
+						height: 15em;
+					}
+
+		.post_footer p{
+			color: indianred;
+			background: white;
+			font-size: 0.8em;
+			font-family: montserrat, helvetica;
+			padding: 0.4em 1em;
+			text-align: justify;
+		}
+
+
+footer{
+	height: 10em;
+	background: #cccccc;
+	text-align: center;
+}
