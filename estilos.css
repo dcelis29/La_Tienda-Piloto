@@ -66,6 +66,8 @@ body{
 	padding: 0;
 }
 
+/***************************Header*******************************/
+
 header{
 	background: url(img/fondo.jpg);
 	color: #790909;
@@ -101,71 +103,210 @@ figure{
 		border-radius: 50%;		
 	}
 
-.menu ul{
-	text-align: center;
-}
+/***************************Menú*******************************/
+.menu{
 
-.menu ul li{
-	display: inline-block;
-	list-style: none;
-	margin: 0 2em;
 }
-
-.menu a{
-	text-decoration: none;
-	color: #790909;
-}
-
-.menu a:hover{
-	color: olive;
-}
-
-.galeria_list{
-	margin: 0 auto;
-	padding: 0;
-	text-align: center;
-}
-	.galeria_post figure{
-		
+	.menu ul{
+		text-align: center;
 	}
+
+		.menu ul li{
+			display: inline-block;
+			list-style: none;
+			margin: 0 2em;
+		}
+
+		.menu a{
+			text-decoration: none;
+			color: #790909;
+		}
+
+		.menu a:hover{
+			color: olive;
+		}
+
+
+/***************************Galeria*******************************/
+.galeria{
 	
-	.post_header{
-		background: white;
-	}
-		.post_header h2{
-			color: indianred;
-			font-size: 1em;
-			font-family: montserrat, helvetica;
-			padding: 0.4em 0;
-			text-transform: uppercase;
-		}
-			.galeria_list li{
-				display: inline-block;
-				margin: 1em 2em;
-				-webkit-box-shadow: 3px 3px 10px 3px rgba(5,5,5,5);
-				box-shadow: 3px 3px 10px 3px rgba(5,5,5,5);	
-				width: 20%;
-			}
-				.galeria_post{
-					margin: 0 auto;
-				}
-					.galeria_img{
-						width: 100%;
-						height: 15em;
-					}
-
-		.post_footer p{
-			color: indianred;
-			background: white;
-			font-size: 0.8em;
-			font-family: montserrat, helvetica;
-			padding: 0.4em 1em;
-			text-align: justify;
-		}
-
-
-footer{
-	height: 10em;
-	background: #cccccc;
-	text-align: center;
 }
+
+	.galeria_list{
+		margin: 0 auto;
+		padding: 0;
+		text-align: center;
+	}
+		.galeria_post figure{
+			
+		}
+		
+		.post_header{
+			background: white;
+		}
+			.post_header h2{
+				color: indianred;
+				font-size: 1em;
+				font-family: montserrat, helvetica;
+				padding: 0.4em 0;
+				text-transform: uppercase;
+			}
+				.galeria_list li{
+					display: inline-block;
+					margin: 1em 2em;
+					-webkit-box-shadow: 3px 3px 10px 3px rgba(5,5,5,5);
+					box-shadow: 3px 3px 10px 3px rgba(5,5,5,5);	
+					width: 20%;
+				}
+					.galeria_post{
+						margin: 0 auto;
+					}
+						.galeria_img{
+							width: 100%;
+							height: 15em;
+						}
+
+			.post_footer{
+				margin: 0;
+			}
+
+			.post_footer p{
+				color: indianred;
+				background: white;
+				font-size: 0.8em;
+				font-family: montserrat, helvetica;
+				margin: 0;
+				padding: 0.4em 1em;
+				text-align: justify;
+			}
+
+/***************************Desyunos*******************************/
+.desayuno{
+	background: url(img/fondo_section_desayuno.jpg);
+	height: 30em;
+	padding-top: 5em;
+	margin-top: 2em;
+}
+	
+	.ir_home{		
+		position: fixed;	
+		color: #790909;
+		margin: 0;
+		padding: 0;
+	}
+
+	.desayuno h1{
+		text-align: center;
+		color:#903C3F;
+		margin-bottom: 1em;
+		text-transform: uppercase;
+	}
+
+	.desayuno .desayuno_picnic{
+		background: url(img/desayuno_picnic.jpg);
+		background-size: cover;
+		width: 40em;
+		height: 20em;
+		margin: auto;
+		border-radius: 7%;
+	}
+
+	.desayuno p{
+		text-align: center;
+		color:#903C3F;		
+	}
+
+/***************************Footer*******************************/
+footer{
+	background: #e4e7ec;
+}
+
+	footer h1{	
+		text-align: center;
+	}
+
+	.footer_image_list{
+		text-align: center;
+		margin-top: 0;
+	}
+		.footer_image_item{
+			display: inline-block;
+		}
+
+		.footer_image{
+			border: 5px solid #363B52;
+			border-radius: 50%; 
+			-webkit-transition:1s;
+			width: 12.6em;
+			height: 12em;
+			margin: 1em 8em 0 8em;			
+		}
+
+		.footer_image:hover{	
+			-webkit-transform: rotateY(360deg) scale(0.5, 0.5);
+		}
+
+		.footer_image_description{
+			margin: 0 auto;
+			padding: 0;			
+			color: olive;		
+		}
+
+			.footer_image_description a{
+				text-decoration: none;
+				color: olive;
+			}
+
+			.footer_image_description p{
+				padding: 0;
+				margin: 0;
+			}
+
+	.credits{
+		background: #5D4E4E;
+	}
+
+	footer h1{
+		font-family: montserrat, helvetica;
+		color:olive;
+		font-weight: bold;
+		text-transform: uppercase;
+		padding-top: 2rem;
+		margin-bottom: 0; 
+	}
+
+	footer h3, footer h4{
+		margin: 0;
+		padding-left: 4rem; 
+		color: white;
+	}
+
+		footer h3{
+			font-size: 1.3em;
+			padding-top: 0.5rem;
+		}
+
+		footer h4{
+			font-size: .68em;
+			padding-bottom: 0.5rem;
+		}
+
+	.credits .social{
+		text-align: right;
+		margin: -2rem 4rem 0 0;
+		padding-bottom: 1rem;
+
+	}
+
+		.social li{
+			list-style: none;
+			display: inline-block;
+			padding-left: 1rem;
+			font-size: 1.5rem;
+		}
+
+		.social a{
+			text-decoration: none;
+			color: white;
+		}
+
