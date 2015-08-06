@@ -9,7 +9,7 @@
 <body>
 	<header>		
 		<figure>
-			<img src="img/logo.jpg" class="logo">
+			<img src="img/logo.png" class="logo">
 			<figcaption>
 				<h1>LA TIENDA</h1>
 				<h2>Desayunos y meriendas a domicilio</h2>	
@@ -22,7 +22,7 @@
 	<nav class="menu">
 		<ul>
 			<li><a href="#" class="icon-home3"><p>Home</p></a></li>		
-			<li><a href="#" class="icon-mug"><p> Desayunos Sorpresa</p></a></li>
+			<li><a href="#desayuno" class="icon-mug"><p> Desayunos Sorpresa</p></a></li>
 			<li><a href="#" class="icon-spoon-knife"><p> Menús Especiales</p></a></li>
 			<li><a href="#" class="icon-lab"><p> Prepara tu pedido</p></a></li>
 			<li><a href="#" class="icon-bullhorn"><p> Contáctanos</p></a></li>
@@ -75,14 +75,25 @@
 
 <!-----------------------Section desayunos---------------------------->
 	
-	<nav class="ir_home"><a href="" class="ir_home icon-home3"></a></nav>
+	<!-- <nav class="ir_home"><a href="" class="ir_home icon-home3"></a></nav> -->
 	<section class="desayuno">		
-		<h1>Desayuno Picnic</h1>
+		<a name="desayuno"><h1>Desayuno Especial</h1></a>
 		<div class="desayuno_picnic"></div>
-		<p>Desayuno especial para empezar el día con toda energía. Contiene</p>
+		<p>Desayuno especial para empezar el día con toda energía.</p> 
+		<input type="button" value="Ver contenido" id="ver_contenido" class="boton_contenido"> 
 	</section>
 
-
+	<section class="contenido" id="contenido">		
+		<ul class="contenido_desayuno" >
+			<li><img src="img/galeria/galeria (19).jpg" class="contenido_desayuno_imagen"></li>
+			<li><img src="img/galeria/galeria (20).jpg" class="contenido_desayuno_imagen"></li>
+			<li><img src="img/galeria/galeria (21).jpg" class="contenido_desayuno_imagen"></li>
+			<li><img src="img/galeria/galeria (22).jpg" class="contenido_desayuno_imagen"></li>
+			<li><img src="img/galeria/galeria (23).jpg" class="contenido_desayuno_imagen"></li>
+			<li><img src="img/galeria/galeria (24).jpg" class="contenido_desayuno_imagen"></li>
+			<li><img src="img/galeria/galeria (25).jpg" class="contenido_desayuno_imagen"></li>
+		</ul>
+	</section>
 <!-----------------------Footer---------------------------->
 	<footer>
 		<h1>Equipo</h1>	
@@ -116,7 +127,9 @@
 				<li><a href="" class="icon-youtube3" target="_blank"></a></li>
 			</ul>
 		</div>	
-	</footer>
-	<!--<script src="index.js" type="text/javascript"></script>-->
+	</footer>	
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js" type="text/javascript" charset="utf-8"></script>
+	<script src="function.js" type="text/javascript"></script>
+
 </body>
 </html>
