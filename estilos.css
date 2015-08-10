@@ -239,9 +239,9 @@ figure{
 
 .contenido{
 		margin: auto;
-		height: 80em;
+		height: 60em;
 		display: none;
-		width: 70%;
+		width: 100%;
 	}
 
 @media screen and (min-width: 1000px){
@@ -250,7 +250,7 @@ figure{
 		margin: auto;
 		height: 33em;
 		display: none;
-		width: 70%;
+		width: 100%;
 	}
 }
 	.contenido_desayuno{
