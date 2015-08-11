@@ -83,6 +83,12 @@ h2{
 	margin: 0;
 }
 
+hr{
+	text-align: center;
+	width: 63%;
+	margin-bottom: 1em;
+}
+
 figure{
 	margin: 0;
 }
@@ -133,12 +139,11 @@ figure{
 
 
 /***************************Galeria*******************************/
-.galeria h1{
-	background: url(img/fondo.jpg);
+.galeria h1{	
 	text-align: center;
 	color: #790909;
-	margin:0.5em 0 2em 0;
-	padding: 0.5em 0;
+	margin-top:0.5em;
+	padding-top: 0.5em;
 	font-family: 'lobster', cursive;
 	font-size: 30px;	
 }
@@ -227,7 +232,6 @@ figure{
 	.desayuno h1{
 		text-align: center;
 		color:#903C3F;
-		margin-bottom: 1em;
 		text-transform: uppercase;
 	}
 
@@ -306,10 +310,9 @@ figure{
 	text-align: center;
 	color:#790909;
 	padding-top: 3em;
-	
+
 }
 	.merienda h1{
-		margin-bottom: 2em;
 		text-transform: uppercase;
 	}
 	.merienda .merienda_1{
