@@ -105,7 +105,7 @@ figure{
 	}
 
 	.logo:hover{
-		-webkit-transform: rotateY(360deg) scale(0.5, 0.5);
+		-webkit-transform: rotateY(360deg);
 	}
 
 /***************************Menú*******************************/
@@ -133,68 +133,83 @@ figure{
 
 
 /***************************Galeria*******************************/
-.galeria{
-	
+.galeria h1{
+	background: url(img/fondo.jpg);
+	text-align: center;
+	color: #790909;
+	margin:0.5em 0 2em 0;
+	padding: 0.5em 0;
+	font-family: 'lobster', cursive;
+	font-size: 30px;	
 }
-
 	.galeria_list{
 		margin: 0 auto;
 		padding: 0;
 		text-align: center;
+		width: 80%;
 	}
-		.galeria_post figure{
-			
+		.galeria li{
+			display: inline-block;
 		}
-		
-		.post_header{
-			background: white;
-		}
-
-			.post_header h2{
-				color: indianred;
-				font-size: 1em;
-				font-family: montserrat, helvetica;
-				padding: 0.4em 0;
-				text-transform: uppercase;
+			.galeria_post {
+				background: #4F6D4F;
+				height: 18.9em;
+				width: 30.9em;
+				position: relative;				
+				border-radius: 5px;
 			}
-
-				.galeria_list li{
-					display: inline-block;
-					margin: 1em 2em;
-					-webkit-box-shadow: 3px 3px 10px 3px rgba(5,5,5,5);
-					box-shadow: 3px 3px 10px 3px rgba(5,5,5,5);	
-					width: 20%;
+				.post_header h2{
+					color: indianred;
+					font-size: 1em;
+					font-family: montserrat, helvetica;
+					padding: 0.4em 0;
+					text-transform: uppercase;
 				}
-
-					.galeria_post{
-						margin: 0 auto;						
-
-					}
-						.galeria_img{
-							width: 100%;
-							height: 15em;
-							border-radius: 9%;
+						.galeria_post{
+							margin: 0 auto;		
 						}
+							.galeria_img_vertical{
+								width: 14em;
+								height: 17.4em;
+								position: absolute;
+								top: 0.1em;
+								left: 0.1em;
+								border: 10px solid white;
+								border-radius: 5px;
+								-webkit-box-shadow: 2px 1px 10px -3px rgba(5,5,5,5);
+								box-shadow: 2px 1px 10px -3px rgba(5,5,5,5);						
+							}						
+							.galeria_img_horizontal{
+								width: 14em;
+								height: 8em;
+								position: absolute;
+								top: 0.1em;
+								left: 15.5em;
+								border: 10px solid white;
+								border-radius: 5px;
+								-webkit-box-shadow: 2px 1px 10px -3px rgba(5,5,5,5);
+								box-shadow: 2px 1px 10px -3px rgba(5,5,5,5);						
+							}							
+							.galeria_img_horizontal2{
+								width: 14em;
+								height: 8em;
+								position: absolute;
+								top: 9.5em;
+								left: 15.5em;
+								border: 10px solid white;
+								border-radius: 5px;
+								-webkit-box-shadow: 2px 1px 10px -3px rgba(5,5,5,5);
+								box-shadow: 2px 1px 10px -3px rgba(5,5,5,5);
+							}
+							
 
-			.post_footer{
-				margin: 0;
-			}
 
-			.post_footer p{
-				color: indianred;
-				background: white;
-				font-size: 0.8em;
-				font-family: montserrat, helvetica;
-				margin: 0;
-				padding: 0.4em 1em;
-				text-align: justify;
-			}
 
 /***************************Desyunos*******************************/
 .desayuno{
 	background: url(img/fondo_section_desayuno.jpg);
 	height: 30em;
-	padding-top: 5em;
+	padding-top: 3em;
 	margin-top: 2em;
 }
 	
@@ -282,6 +297,32 @@ figure{
 		-ms-transform: scale(2);
 		transform: scale(2);
 		}
+
+/***************************Meriendas*******************************/
+
+.merienda{
+	background: url(img/fondo.jpg);
+	height: 30em;
+	text-align: center;
+	color:#790909;
+	padding-top: 3em;
+	
+}
+	.merienda h1{
+		margin-bottom: 2em;
+		text-transform: uppercase;
+	}
+	.merienda .merienda_1{
+		background: url(img/merienda.jpg);
+		background-size: cover;
+		width: 40em;
+		height: 20em;
+		margin: auto;
+		border-radius: 7%;
+		-webkit-box-shadow: 3px 3px 10px 3px rgba(5,5,5,5);
+		box-shadow: 3px 3px 10px 3px rgba(5,5,5,5);
+	}
+
 
 /***************************Footer*******************************/
 footer{
