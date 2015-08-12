@@ -93,9 +93,9 @@ figure{
 	margin: 0;
 }
 
-	img{
+img{
 
-	}
+}
 
 	.logo{
 		background: peru;
@@ -137,15 +137,18 @@ figure{
 			color: olive;
 		}
 
+		.menu a:active{
+			position: relative;
+			top: 2px
+		}
+
 
 /***************************Galeria*******************************/
 .galeria h1{	
 	text-align: center;
 	color: #790909;
 	margin-top:0.5em;
-	padding-top: 0.5em;
-	font-family: 'lobster', cursive;
-	font-size: 30px;	
+	padding-top: 0.5em;	
 }
 	.galeria_list{
 		margin: 0 auto;
@@ -183,7 +186,13 @@ figure{
 								border-radius: 5px;
 								-webkit-box-shadow: 2px 1px 10px -3px rgba(5,5,5,5);
 								box-shadow: 2px 1px 10px -3px rgba(5,5,5,5);						
-							}						
+							}
+							.galeria_post .top{
+								animation-name: cfFadeInOut;					
+							    animation-iteration-count: infinite;
+							    animation-duration: 5s;
+							    animation-direction: alternate;
+							}
 							.galeria_img_horizontal{
 								width: 14em;
 								height: 8em;
@@ -252,7 +261,6 @@ figure{
 	}
 
 	.boton_contenido{
-		
 	}
 
 
@@ -422,3 +430,17 @@ footer{
 			color: white;
 		}
 
+
+	@keyframes cfFadeInOut {
+	0% {
+	  opacity:1;
+	}
+	25% {
+		opacity:1;
+	}
+	75% {
+		opacity:0;
+	}
+	100% {
+	  opacity:0;
+	}
