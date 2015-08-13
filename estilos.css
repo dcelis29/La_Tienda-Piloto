@@ -177,8 +177,8 @@ img{
 							margin: 0 auto;		
 						}
 							.galeria_img_vertical{
-								width: 14em;
-								height: 17.4em;
+								width: 15.2em;
+								height: 18.6em;
 								position: absolute;
 								top: 0.1em;
 								left: 0.1em;
@@ -194,8 +194,8 @@ img{
 							    animation-direction: alternate;
 							}
 							.galeria_img_horizontal{
-								width: 14em;
-								height: 8em;
+								width: 15.2em;
+								height: 9.2em;
 								position: absolute;
 								top: 0.1em;
 								left: 15.5em;
@@ -205,8 +205,8 @@ img{
 								box-shadow: 2px 1px 10px -3px rgba(5,5,5,5);						
 							}							
 							.galeria_img_horizontal2{
-								width: 14em;
-								height: 8em;
+								width: 15.2em;
+								height: 9.2em;
 								position: absolute;
 								top: 9.5em;
 								left: 15.5em;
@@ -323,7 +323,7 @@ img{
 	.merienda h1{
 		text-transform: uppercase;
 	}
-	.merienda .merienda_1{
+	/*.merienda .merienda_1{
 		background: url(img/merienda.jpg);
 		background-size: cover;
 		width: 40em;
@@ -332,7 +332,7 @@ img{
 		border-radius: 7%;
 		-webkit-box-shadow: 3px 3px 10px 3px rgba(5,5,5,5);
 		box-shadow: 3px 3px 10px 3px rgba(5,5,5,5);
-	}
+	}*/
 
 
 /***************************Footer*******************************/
