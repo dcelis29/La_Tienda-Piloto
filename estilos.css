@@ -165,57 +165,57 @@ img{
 				width: 30.9em;
 				position: relative;				
 				border-radius: 5px;
+				margin: 0 auto;
 			}
-				.post_header h2{
-					color: indianred;
-					font-size: 1em;
-					font-family: montserrat, helvetica;
-					padding: 0.4em 0;
-					text-transform: uppercase;
+
+				.galeria_post1 img{			
+				height: 10em;
+				width: 10em;
+				position: relative;				
+				border-radius: 5px;
+				margin: 0 auto;
+			}
+				
+				.galeria_img_vertical{
+					width: 15.2em;
+					height: 18.6em;
+					position: absolute;
+					top: 0.1em;
+					left: 0.1em;
+					border: 10px solid white;
+					border-radius: 5px;
+					-webkit-box-shadow: 2px 1px 10px -3px rgba(5,5,5,5);
+					box-shadow: 2px 1px 10px -3px rgba(5,5,5,5);						
 				}
-						.galeria_post{
-							margin: 0 auto;		
-						}
-							.galeria_img_vertical{
-								width: 15.2em;
-								height: 18.6em;
-								position: absolute;
-								top: 0.1em;
-								left: 0.1em;
-								border: 10px solid white;
-								border-radius: 5px;
-								-webkit-box-shadow: 2px 1px 10px -3px rgba(5,5,5,5);
-								box-shadow: 2px 1px 10px -3px rgba(5,5,5,5);						
-							}
-							.galeria_post .top{
-								animation-name: cfFadeInOut;					
-							    animation-iteration-count: infinite;
-							    animation-duration: 5s;
-							    animation-direction: alternate;
-							}
-							.galeria_img_horizontal{
-								width: 15.2em;
-								height: 9.2em;
-								position: absolute;
-								top: 0.1em;
-								left: 15.5em;
-								border: 10px solid white;
-								border-radius: 5px;
-								-webkit-box-shadow: 2px 1px 10px -3px rgba(5,5,5,5);
-								box-shadow: 2px 1px 10px -3px rgba(5,5,5,5);						
-							}							
-							.galeria_img_horizontal2{
-								width: 15.2em;
-								height: 9.2em;
-								position: absolute;
-								top: 9.5em;
-								left: 15.5em;
-								border: 10px solid white;
-								border-radius: 5px;
-								-webkit-box-shadow: 2px 1px 10px -3px rgba(5,5,5,5);
-								box-shadow: 2px 1px 10px -3px rgba(5,5,5,5);
-							}
-							
+				.galeria_post .top{
+					animation-name: cfFadeInOut;					
+				    animation-iteration-count: infinite;
+				    animation-duration: 5s;
+				    animation-direction: alternate;
+				}
+				.galeria_img_horizontal{
+					width: 15.2em;
+					height: 9.2em;
+					position: absolute;
+					top: 0.1em;
+					left: 15.5em;
+					border: 10px solid white;
+					border-radius: 5px;
+					-webkit-box-shadow: 2px 1px 10px -3px rgba(5,5,5,5);
+					box-shadow: 2px 1px 10px -3px rgba(5,5,5,5);						
+				}							
+				.galeria_img_horizontal2{
+					width: 15.2em;
+					height: 9.2em;
+					position: absolute;
+					top: 9.5em;
+					left: 15.5em;
+					border: 10px solid white;
+					border-radius: 5px;
+					-webkit-box-shadow: 2px 1px 10px -3px rgba(5,5,5,5);
+					box-shadow: 2px 1px 10px -3px rgba(5,5,5,5);
+				}
+				
 
 
 
