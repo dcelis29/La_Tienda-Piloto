@@ -1,10 +1,10 @@
 @font-face {
 	font-family: 'icomoon';
-	src:url('fonts/icomoon.eot?-pkg9dp');
-	src:url('fonts/icomoon.eot?#iefix-pkg9dp') format('embedded-opentype'),
-		url('fonts/icomoon.ttf?-pkg9dp') format('truetype'),
-		url('fonts/icomoon.woff?-pkg9dp') format('woff'),
-		url('fonts/icomoon.svg?-pkg9dp#icomoon') format('svg');
+	src:url('../fonts/icomoon.eot?-pkg9dp');
+	src:url('../fonts/icomoon.eot?#iefix-pkg9dp') format('embedded-opentype'),
+		url('../fonts/icomoon.ttf?-pkg9dp') format('truetype'),
+		url('../fonts/icomoon.woff?-pkg9dp') format('woff'),
+		url('../fonts/icomoon.svg?-pkg9dp#icomoon') format('svg');
 	font-weight: normal;
 	font-style: normal;
 }
@@ -61,7 +61,7 @@
 }
 
 body{
-	background: url('img/fondo_body1.jpg');
+	/*background: url('../images/fondos/fondo_body1.jpg');*/
 	margin: 0;
 	padding: 0;
 }
@@ -69,7 +69,7 @@ body{
 /***************************Header*******************************/
 
 header{
-	background: url(img/fondo.jpg);
+	background: url(../images/fondos/fondo.jpg);
 	color: #790909;
 	height: 25em;
 	padding-top: 2em;
@@ -219,12 +219,13 @@ img{
 
 
 
-/***************************Desyunos*******************************/
+/***************************Desayunos*******************************/
 .desayuno{
 	background: white;
 	height: 30em;
 	padding-top: 3em;
 	margin-top: 2em;
+	position: relative;
 }
 	
 	.ir_home{		
@@ -244,25 +245,82 @@ img{
 		text-transform: uppercase;
 	}
 
+	.desayuno_descripcion{
+		width: 63%;
+		height: 26.6em;		
+		margin: 0 auto;
+		position: relative;
+	}
+
 	.desayuno .desayuno_picnic{
-		background: url(img/desayuno_picnic.jpg);
+		background: url(../images/desayunos/desayuno.jpg);
 		background-size: cover;
-		width: 40em;
-		height: 20em;
-		margin: auto;
+		width: 39em;
+		height: 24em;
 		border-radius: 7%;
 		-webkit-box-shadow: 3px 3px 10px 3px rgba(5,5,5,5);
 		box-shadow: 3px 3px 10px 3px rgba(5,5,5,5);
+		position: absolute;
+		left: 2em;
+		top: 0;
+	}
+	.desayuno_picnic:hover{
+		content: "ver";
 	}
 
+	.desayuno_descripcion p{
+		text-align: justify;
+		color: #903C3F; 
+		position: absolute;
+		top: 0;
+		left: 43em;
+	}
+	.desayuno_descripcion ul{
+		position: absolute;
+		top: 2em;
+		left: 43em;
+		text-align: justify;
+	}
 	.desayuno p{
 		text-align: center;
 		color:#903C3F;		
 	}
 
 	.boton_contenido{
-	}
-
+	   position: absolute;
+	   top: 26.5em;
+	   left: 63em;
+	   order-top: 1px solid #dedede;
+	   background: #a69f7e;
+	   background: -webkit-gradient(linear, left top, left bottom, from(#6b6969), to(#a69f7e));
+	   background: -webkit-linear-gradient(top, #6b6969, #a69f7e);
+	   background: -moz-linear-gradient(top, #6b6969, #a69f7e);
+	   background: -ms-linear-gradient(top, #6b6969, #a69f7e);
+	   background: -o-linear-gradient(top, #6b6969, #a69f7e);
+	   padding: 6px 12px;
+	   -webkit-border-radius: 10px;
+	   -moz-border-radius: 10px;
+	   border-radius: 10px;
+	   -webkit-box-shadow: rgba(0,0,0,1) 0 1px 0;
+	   -moz-box-shadow: rgba(0,0,0,1) 0 1px 0;
+	   box-shadow: rgba(0,0,0,1) 0 1px 0;
+	   text-shadow: rgba(0,0,0,.4) 0 1px 0;
+	   color: white;
+	   font-size: 17px;
+	   font-family: Georgia, serif;
+	   text-decoration: none;
+	   vertical-align: middle;
+	   }
+		.boton_contenido:hover {
+		   border-top-color: #fcfcfc;
+		   background: #fcfcfc;
+		   color: #790909;
+		   content: "Hola";
+		   }
+		.boton_contenido:active {
+		   border-top-color: #a69f7e;
+		   background: #a69f7e;
+		   }
 
 .contenido{
 		margin: auto;
@@ -289,9 +347,9 @@ img{
 	padding: 2.5em 2em 3em 2em;
 	}
 
-	.contenido_desayuno_imagen{
-		height: 10em;
+	.contenido_desayuno_imagen{		
 		width: 10em;
+		border: solid 10px white;
 		border-radius: 10%;
 		-webkit-box-shadow: 3px 3px 10px 3px rgba(5,5,5,5);
 		box-shadow: 32px 18px 121px 2px rgba(100,66,5,5);	
@@ -313,18 +371,19 @@ img{
 /***************************Meriendas*******************************/
 
 .merienda{
-	background: url(img/fondo_section_desayuno.jpg);
+	background: url(../images/fondos/fondo_section_merienda.jpg);
 	height: 30em;
 	text-align: center;
 	color:#790909;
 	padding-top: 3em;
+	position: relative;
 
 }
 	.merienda h1{
 		text-transform: uppercase;
 	}
 	.merienda .merienda_1{
-		background: url(img/merienda.jpg);
+		background: url(../images/fondos/merienda.jpg);
 		background-size: cover;
 		width: 40em;
 		height: 20em;
