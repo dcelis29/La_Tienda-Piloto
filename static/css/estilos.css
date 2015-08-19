@@ -85,7 +85,7 @@ h2{
 
 hr{
 	text-align: center;
-	width: 63%;
+	width: 80%;
 	margin-bottom: 1em;
 }
 
@@ -142,8 +142,17 @@ img{
 			top: 2px
 		}
 
+/***************************form contacto **************/
 
+.form_contacto{
+	display: none;
+	text-align: center;
+}
 /***************************Galeria*******************************/
+.galeria{
+	margin-bottom: 2em;
+}
+
 .galeria h1{	
 	text-align: center;
 	color: #790909;
@@ -223,7 +232,7 @@ img{
 .desayuno{
 	background: white;
 	height: 30em;
-	padding-top: 3em;
+	padding-top: 1em;
 	margin-top: 2em;
 	position: relative;
 }
@@ -241,7 +250,7 @@ img{
 
 	.desayuno h1{
 		text-align: center;
-		color:#903C3F;
+		color:#790909;
 		text-transform: uppercase;
 	}
 
@@ -265,44 +274,18 @@ img{
 		color: #903C3F; 
 		position: absolute;
 		top: 7em;
-		left: 60em;
+		left: 62em;
 	}
 	.desayuno_contenido ul{
 		position: absolute;
 		top: 10em;
-		left: 59em;
+		left: 61em;
 		text-align: justify;
 	}
-	.desayuno p{
-		text-align: center;
-		color:#903C3F;		
-	}
+	
 
-
-@media screen and (min-width: 1000px){
-
-	.contenido{
-		margin: auto;
-		height: 33em;
-		display: none;
-		width: 100%;
-	}
-}
-	.contenido_desayuno{
-	text-align: center;	
-	}
-
-	.contenido_desayuno li{
-	display: inline-block;	
-	padding: 2.5em 2em 3em 2em;
-	}
-
-	.contenido_desayuno_imagen{		
-		width: 10em;
-		border: solid 10px white;
-		border-radius: 10%;
-		-webkit-box-shadow: 3px 3px 10px 3px rgba(5,5,5,5);
-		box-shadow: 32px 18px 121px 2px rgba(100,66,5,5);	
+/**agrandar cuando pase el mouse**/
+	.contenido_desayuno_imagen{					
 		-webkit-transition:-webkit-transform 0.3s ease-out;
 		-moz-transition:-moz-transform 0.3s ease-out;
 		-o-transition:-o-transform 0.3s ease-out;
@@ -332,15 +315,32 @@ img{
 	.merienda h1{
 		text-transform: uppercase;
 	}
-	.merienda .merienda_1{
-		background: url(../images/fondos/merienda.jpg);
-		background-size: cover;
+	.merienda .merienda_descripcion{
 		width: 40em;
 		height: 20em;
 		margin: auto;
-		border-radius: 7%;
-		-webkit-box-shadow: 3px 3px 10px 3px rgba(5,5,5,5);
-		box-shadow: 3px 3px 10px 3px rgba(5,5,5,5);
+		border-radius: 7%;		
+	}
+
+	.merienda .merienda_picnic{
+		width: 39em;
+		height: 24em;		
+		position: absolute;
+		right: 20em;
+	}
+
+	.merienda_contenido p{
+		text-align: justify;
+		color: #903C3F; 
+		position: absolute;
+		top: 7em;
+		right: 69em;
+	}
+	.merienda_contenido ul{
+		position: absolute;
+		top: 10em;
+		right: 64em;
+		text-align: justify;
 	}
 
 
@@ -439,6 +439,7 @@ footer{
 			color: white;
 		}
 
+/**Cambiar imagénes paulatinamente**/
 
 	@keyframes cfFadeInOut {
 	0% {

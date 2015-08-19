@@ -23,12 +23,19 @@
 	<nav class="menu">
 		<ul>
 			<li><a href="#" class="icon-home3"><p>Home</p></a></li>		
-			<li><a href="#desayuno" class="icon-mug"><p> Desayunos Sorpresa</p></a></li>
-			<li><a href="#merienda" class="icon-spoon-knife"><p> Meriendas</p></a></li>
-			<li><a href="templates/desayunos.html" class="icon-lab"><p> Prepara tu pedido</p></a></li>
-			<li><a href="#" class="icon-bullhorn"><p> Contáctanos</p></a></li>
+			<li><a href="templates/desayunos.html" class="icon-mug"><p> Desayunos Sorpresa</p></a></li>
+			<li><a href="templates/desayunos.html #merienda" class="icon-spoon-knife"><p> Meriendas</p></a></li>			
+			<li><a href="#" class="icon-bullhorn" id="ver_contenido"><p> Contáctanos</p></a></li>
 		</ul>	
 	</nav>
+
+<!------------------------Formulario---------------------------->
+
+	<form id="contenido" class="form_contacto">
+		<input type="text" placeholder="Ingrese Nombre">
+		<input type="email" placeholder="Ingrese correo electrónico">
+		<input type="submit" value="Enviar">
+	</form>
 
 <!-----------------------Section Galeria---------------------------->
 
@@ -167,49 +174,7 @@
 		</ul>
 	</section>
 
-<!-----------------------Section desayunos---------------------------->
 	
-	<!-- <nav class="ir_home"><a href="" class="ir_home icon-home3"></a></nav> -->
-	<section class="desayuno">		
-		<a name="desayuno"><h1>Desayuno Sorpresa</h1></a>
-		<hr>
-		<div class= "desayuno_descripcion">
-			<a href="" class="desayuno_picnic" id="ver_contenido"></a>
-			<p>
-				El desayuno contiene:
-				<ul>
-					<li>Tortilla de huevo o Sánduche</li>
-					<li>Café o chocolate</li>
-					<li>Jugo de naranja 100% natural</li>
-					<li>Cereal con yogurth</li>
-				</ul>
-			</p>			
-		</div> 
-		<input type="button" class="boton_contenido" value="Ver desayuno" id="ver_contenido">
-	</section>
-
-<!-----------------------Section contenido desayuno---------------------------->
-
-	<section class="contenido" id="contenido">		
-		<ul class="contenido_desayuno" >
-			<li><img src="static/images/desayunos/desayuno (1).jpg" class="contenido_desayuno_imagen"></li>
-			<li><img src="static/images/desayunos/desayuno (2).jpg" class="contenido_desayuno_imagen"></li>
-			<li><img src="static/images/desayunos/desayuno (3).jpg" class="contenido_desayuno_imagen"></li>
-			<li><img src="static/images/desayunos/desayuno (4).jpg" class="contenido_desayuno_imagen"></li>
-			<li><img src="static/images/desayunos/desayuno (5).jpg" class="contenido_desayuno_imagen"></li>
-			<li><img src="static/images/desayunos/desayuno (6).jpg" class="contenido_desayuno_imagen"></li>
-			<li><img src="static/images/desayunos/desayuno (7).jpg" class="contenido_desayuno_imagen"></li>
-		</ul>
-	</section>
-<!-----------------------Section meriendas---------------------------->
-
-	<section class="merienda">
-		<a name="merienda"><h1>Meriendas</h1></a>
-		<hr>
-		<div class="merienda_1"></div>
-		<p>Deliciosa merienda.</p> 
-		<input type="button" value="Ver contenido" id="ver_contenido" class="boton_contenido"> 		
-	</section>
 <!-----------------------Footer---------------------------->
 	<footer>
 		<h1>Equipo</h1>	

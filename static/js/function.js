@@ -27,11 +27,10 @@ $(function(){
 
 });
 
+//Ocultar-mostrar contenido desayuno
+
 var $contenido      = $("#contenido");
 var $ver_contenido  = $("#ver_contenido");
-
-
-//Ocultar-mostrar contenido desayuno
 
 function mostrarContenido(){
     $contenido.slideToggle();

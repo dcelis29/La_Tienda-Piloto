@@ -22,13 +22,20 @@
 
 	<nav class="menu">
 		<ul>
-			<li><a href="#" class="icon-home3"><p>Home</p></a></li>		
+			<li><a href="../index.html" class="icon-home3"><p>Home</p></a></li>		
 			<li><a href="#desayuno" class="icon-mug"><p> Desayunos Sorpresa</p></a></li>
-			<li><a href="#merienda" class="icon-spoon-knife"><p> Meriendas</p></a></li>
-			<li><a href="templates/desayunos.html" class="icon-lab"><p> Prepara tu pedido</p></a></li>
-			<li><a href="#" class="icon-bullhorn"><p> Contáctanos</p></a></li>
+			<li><a href="#merienda" class="icon-spoon-knife"><p> Meriendas</p></a></li>			
+			<li><a href="#" class="icon-bullhorn" id="ver_contenido"><p> Contáctanos</p></a></li>
 		</ul>	
 	</nav>
+
+	<!------------------------Formulario---------------------------->
+
+	<form id="contenido" class="form_contacto">
+		<input type="text" placeholder="Ingrese Nombre">
+		<input type="email" placeholder="Ingrese correo electrónico">
+		<input type="submit" value="Enviar">
+	</form>
 
 <!-----------------------Section desayunos---------------------------->
 
@@ -36,29 +43,35 @@
 		<a name="desayuno"><h1>Desayuno Sorpresa</h1></a>
 		<hr>
 		<div class= "desayuno_descripcion highslide-gallery">
-			<a href="images/thumbstrip11.jpg" class="desayuno_picnic highslide" id="thumb1" onclick="return hs.expand(this, miniGalleryOptions1)" title="Desayuno sorpresa">
-				<img src='images/thumbstrip11.thumb.png' alt=''/>
+			<a href="images/thumbstrip1.jpg" class="desayuno_picnic highslide" id="thumb1" onclick="return hs.expand(this, miniGalleryOptions1)" title="Desayuno sorpresa">
+				<img src='images/thumbstrip1.thumb.png' alt=''/>
 			</a>
 
 			<div class="hidden-container">
-		        <a class='highslide' href='images/thumbstrip09.jpg' onclick="return hs.expand(this)" title="Ptarmigan">
-					<img src='images/thumbstrip09.thumb.png' alt=''/>
+		        <a class='highslide' href='images/thumbstrip2.jpg' onclick="return hs.expand(this)" title="Ptarmigan">
+					<img src='images/thumbstrip2.thumb.png' alt=''/>
 				</a>
 
-				<a class='highslide' href='images/thumbstrip12.jpg' title="Patterns in the snow" onclick="return hs.expand(this, miniGalleryOptions1)">
-					<img src='images/thumbstrip12.thumb.png' alt=''/>
+				<a class='highslide' href='images/thumbstrip3.jpg' title="Patterns in the snow" onclick="return hs.expand(this, miniGalleryOptions1)">
+					<img src='images/thumbstrip3.thumb.png' alt=''/>
 				</a>
 				
-				<a class='highslide' href='images/thumbstrip22.jpg' title="Spring in the mountains"	onclick="return hs.expand(this, miniGalleryOptions1)">
-					<img src='images/thumbstrip22.thumb.png' alt=''/>
+				<a class='highslide' href='images/thumbstrip4.jpg' title="Spring in the mountains"	onclick="return hs.expand(this, miniGalleryOptions1)">
+					<img src='images/thumbstrip4.thumb.png' alt=''/>
 				</a>
 
-				<a class='highslide' href='images/thumbstrip23.jpg' title="Spring in the mountains"	onclick="return hs.expand(this, miniGalleryOptions1)">
-					<img src='images/thumbstrip23.thumb.png' alt=''/>
+				<a class='highslide' href='images/thumbstrip5.jpg' title="Spring in the mountains"	onclick="return hs.expand(this, miniGalleryOptions1)">
+					<img src='images/thumbstrip5.thumb.png' alt=''/>
 				</a>
 
-				<a class='highslide' href='images/thumbstrip24.jpg' title="Fjord landscape"	onclick="return hs.expand(this, miniGalleryOptions1)">
-					<img src='images/thumbstrip24.thumb.png' alt=''/></a>
+				<a class='highslide' href='images/thumbstrip6.jpg' title="Fjord landscape"	onclick="return hs.expand(this, miniGalleryOptions1)">
+					<img src='images/thumbstrip6.thumb.png' alt=''/></a>
+
+				<a class='highslide' href='images/thumbstrip7.jpg' title="Fjord landscape"	onclick="return hs.expand(this, miniGalleryOptions1)">
+				<img src='images/thumbstrip7.thumb.png' alt=''/></a>
+
+				<a class='highslide' href='images/thumbstrip8.jpg' title="Fjord landscape"	onclick="return hs.expand(this, miniGalleryOptions1)">
+				<img src='images/thumbstrip8.thumb.png' alt=''/></a>
 			</div>				
 		</div> 
 		<div class= "desayuno_contenido">
@@ -74,6 +87,88 @@
 		</div>				
 	</section>
 
+<!-----------------------Section meriendas---------------------------->
+	<section class="merienda">
+		<a name="merienda"><h1>Meriendas</h1></a>
+		<hr>
+		<div class="merienda_descripcion highslide-gallery">
+			<a href="images/thumbstrip9.jpg" class="merienda_picnic highslide" id="thumb1" onclick="return hs.expand(this, miniGalleryOptions1)" title="Merienda">
+				<img src='images/thumbstrip9.thumb.png' alt=''/>
+			</a>
+
+			<div class="hidden-container">
+		        <a class='highslide' href='images/thumbstrip10.jpg' onclick="return hs.expand(this)" title="Ptarmigan">
+					<img src='images/thumbstrip10.thumb.png' alt=''/>
+				</a>
+
+				<a class='highslide' href='images/thumbstrip11.jpg' title="Patterns in the snow" onclick="return hs.expand(this, miniGalleryOptions1)">
+					<img src='images/thumbstrip11.thumb.png' alt=''/>
+				</a>
+				
+				<a class='highslide' href='images/thumbstrip12.jpg' title="Spring in the mountains"	onclick="return hs.expand(this, miniGalleryOptions1)">
+					<img src='images/thumbstrip12.thumb.png' alt=''/>
+				</a>
+
+				<a class='highslide' href='images/thumbstrip13.jpg' title="Spring in the mountains"	onclick="return hs.expand(this, miniGalleryOptions1)">
+					<img src='images/thumbstrip13.thumb.png' alt=''/>
+				</a>
+
+				<a class='highslide' href='images/thumbstrip14.jpg' title="Fjord landscape"	onclick="return hs.expand(this, miniGalleryOptions1)">
+					<img src='images/thumbstrip14.thumb.png' alt=''/></a>
+			</div>	
+		</div>
+
+		<div class= "merienda_contenido">
+			<p>
+			La merienda contiene:
+			<ul>
+				<li>Tortilla de huevo o Sánduche</li>
+				<li>Café o chocolate</li>
+				<li>Jugo de naranja 100% natural</li>
+				<li>Cereal con yogurth</li>
+			</ul>
+			</p>
+		</div>				
+	</section>
+
+<!-----------------------Footer---------------------------->
+	<footer>
+		<h1>Equipo</h1>	
+		<ul class="footer_image_list">
+			<li class="footer_image_item">
+				<figure class="content_figure_image">
+					<img src="../static/images/logos/avatarLaura.jpg" class="footer_image">
+					<figcaption class="footer_image_description">
+						<a href="">LAURA RIVERA</a>
+						<p>Co-Founder & CEO</p>
+					</figcaption>
+				</figure>
+			</li>
+			<li class="footer_image_item">
+				<figure class="content_figure_image">
+					<img src="../static/images/logos/avatarDiego.jpeg" class="footer_image">
+					<figcaption class="footer_image_description">
+						<a href="">DIEGO CELIS</a>
+						<p>Co-Founder & CTO</p>
+					</figcaption>
+				</figure>
+			</li>
+		</ul>
+		<div class="credits">
+			<h3>La Tienda</h3>
+			<h4>Hecho en el Quindío ♥</h4>
+			<ul class="social">
+				<li><a href="https://www.facebook.com/latiendaquindio?ref=hl" class="icon-facebook2" target="_blank"></a></li>
+				<li><a href="https://instagram.com/latiendaquindio/" class="icon-instagram" target="_blank"></a></li>
+				<li><a href="https://twitter.com/LaTiendaQuindio" class="icon-twitter" target="_blank"></a></li>
+				<li><a href="" class="icon-youtube3" target="_blank"></a></li>
+			</ul>
+		</div>	
+	</footer>
+
+<!-----------------------Scripts---------------------------->
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js" type="text/javascript" charset="utf-8"></script>
+	<script src="../static/js/function.js" type="text/javascript"></script>
 	<script type="text/javascript" src="../highslide/highslide-with-gallery.js"></script>
 	<script type="text/javascript">
 		hs.graphicsDir = '../highslide/graphics/';
