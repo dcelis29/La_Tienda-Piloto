@@ -252,33 +252,25 @@ img{
 		position: relative;
 	}
 
-	.desayuno .desayuno_picnic{
-		background: url(../images/desayunos/desayuno.jpg);
-		background-size: cover;
+	.desayuno .desayuno_picnic{		
 		width: 39em;
-		height: 24em;
-		border-radius: 7%;
-		-webkit-box-shadow: 3px 3px 10px 3px rgba(5,5,5,5);
-		box-shadow: 3px 3px 10px 3px rgba(5,5,5,5);
+		height: 24em;		
 		position: absolute;
 		left: 2em;
 		top: 0;
-	}
-	.desayuno_picnic:hover{
-		content: "ver";
-	}
+	}	
 
-	.desayuno_descripcion p{
+	.desayuno_contenido p{
 		text-align: justify;
 		color: #903C3F; 
 		position: absolute;
-		top: 0;
-		left: 43em;
+		top: 7em;
+		left: 60em;
 	}
-	.desayuno_descripcion ul{
+	.desayuno_contenido ul{
 		position: absolute;
-		top: 2em;
-		left: 43em;
+		top: 10em;
+		left: 59em;
 		text-align: justify;
 	}
 	.desayuno p{
@@ -286,48 +278,6 @@ img{
 		color:#903C3F;		
 	}
 
-	.boton_contenido{
-	   position: absolute;
-	   top: 26.5em;
-	   left: 63em;
-	   order-top: 1px solid #dedede;
-	   background: #a69f7e;
-	   background: -webkit-gradient(linear, left top, left bottom, from(#6b6969), to(#a69f7e));
-	   background: -webkit-linear-gradient(top, #6b6969, #a69f7e);
-	   background: -moz-linear-gradient(top, #6b6969, #a69f7e);
-	   background: -ms-linear-gradient(top, #6b6969, #a69f7e);
-	   background: -o-linear-gradient(top, #6b6969, #a69f7e);
-	   padding: 6px 12px;
-	   -webkit-border-radius: 10px;
-	   -moz-border-radius: 10px;
-	   border-radius: 10px;
-	   -webkit-box-shadow: rgba(0,0,0,1) 0 1px 0;
-	   -moz-box-shadow: rgba(0,0,0,1) 0 1px 0;
-	   box-shadow: rgba(0,0,0,1) 0 1px 0;
-	   text-shadow: rgba(0,0,0,.4) 0 1px 0;
-	   color: white;
-	   font-size: 17px;
-	   font-family: Georgia, serif;
-	   text-decoration: none;
-	   vertical-align: middle;
-	   }
-		.boton_contenido:hover {
-		   border-top-color: #fcfcfc;
-		   background: #fcfcfc;
-		   color: #790909;
-		   content: "Hola";
-		   }
-		.boton_contenido:active {
-		   border-top-color: #a69f7e;
-		   background: #a69f7e;
-		   }
-
-.contenido{
-		margin: auto;
-		height: 60em;
-		display: none;
-		width: 100%;
-	}
 
 @media screen and (min-width: 1000px){
 

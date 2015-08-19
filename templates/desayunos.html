@@ -1,41 +1,78 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<meta charset="utf-8" />
-		<title>Desayunos</title>
-		<link rel="stylesheet" type="text/css" href="highslide.css" />
+		<meta charset = "utf-8">
+		<link rel="stylesheet" type="text/css" href="../static/css/estilos.css">	
+		<link rel="stylesheet" type="text/css" href="highslide.css" />	
+		<link href='http://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>	
+		<title>La Tienda</title>
 	</head>
-
 <body>
+	<header>		
+		<figure>
+			<img src="../static/images/logos/logo.png" class="logo">
+			<figcaption>
+				<h1>LA TIENDA</h1>
+				<h2>Desayunos y meriendas a domicilio</h2>	
+			</figcaption>
+		</figure>				
+	</header>
 
-<div class="highslide-gallery">
+	<!-----------------------Menú---------------------------->
 
-	<a class='highslide' id="thumb1" href='images/thumbstrip11.jpg' onclick="return hs.expand(this, miniGalleryOptions1)" title="Two cabins">
-		<img src='images/thumbstrip11.thumb.png' alt=''/>
-	</a>
+	<nav class="menu">
+		<ul>
+			<li><a href="#" class="icon-home3"><p>Home</p></a></li>		
+			<li><a href="#desayuno" class="icon-mug"><p> Desayunos Sorpresa</p></a></li>
+			<li><a href="#merienda" class="icon-spoon-knife"><p> Meriendas</p></a></li>
+			<li><a href="templates/desayunos.html" class="icon-lab"><p> Prepara tu pedido</p></a></li>
+			<li><a href="#" class="icon-bullhorn"><p> Contáctanos</p></a></li>
+		</ul>	
+	</nav>
 
-	<div class="hidden-container">
-        <a class='highslide' href='images/thumbstrip09.jpg' onclick="return hs.expand(this)" title="Ptarmigan">
-			<img src='images/thumbstrip09.thumb.png' alt=''/>
-		</a>
+<!-----------------------Section desayunos---------------------------->
 
-		<a class='highslide' href='images/thumbstrip12.jpg' title="Patterns in the snow" onclick="return hs.expand(this, miniGalleryOptions1)">
-			<img src='images/thumbstrip12.thumb.png' alt=''/>
-		</a>
-		
-		<a class='highslide' href='images/thumbstrip22.jpg' title="Spring in the mountains"	onclick="return hs.expand(this, miniGalleryOptions1)">
-			<img src='images/thumbstrip22.thumb.png' alt=''/>
-		</a>
+	<section class="desayuno">		
+		<a name="desayuno"><h1>Desayuno Sorpresa</h1></a>
+		<hr>
+		<div class= "desayuno_descripcion highslide-gallery">
+			<a href="images/thumbstrip11.jpg" class="desayuno_picnic highslide" id="thumb1" onclick="return hs.expand(this, miniGalleryOptions1)" title="Desayuno sorpresa">
+				<img src='images/thumbstrip11.thumb.png' alt=''/>
+			</a>
 
-		<a class='highslide' href='images/thumbstrip23.jpg' title="Spring in the mountains"	onclick="return hs.expand(this, miniGalleryOptions1)">
-			<img src='images/thumbstrip23.thumb.png' alt=''/>
-		</a>
+			<div class="hidden-container">
+		        <a class='highslide' href='images/thumbstrip09.jpg' onclick="return hs.expand(this)" title="Ptarmigan">
+					<img src='images/thumbstrip09.thumb.png' alt=''/>
+				</a>
 
-		<a class='highslide' href='images/thumbstrip24.jpg' title="Fjord landscape"	onclick="return hs.expand(this, miniGalleryOptions1)">
-			<img src='images/thumbstrip24.thumb.png' alt=''/></a>
+				<a class='highslide' href='images/thumbstrip12.jpg' title="Patterns in the snow" onclick="return hs.expand(this, miniGalleryOptions1)">
+					<img src='images/thumbstrip12.thumb.png' alt=''/>
+				</a>
+				
+				<a class='highslide' href='images/thumbstrip22.jpg' title="Spring in the mountains"	onclick="return hs.expand(this, miniGalleryOptions1)">
+					<img src='images/thumbstrip22.thumb.png' alt=''/>
+				</a>
 
-	</div>
-</div>
+				<a class='highslide' href='images/thumbstrip23.jpg' title="Spring in the mountains"	onclick="return hs.expand(this, miniGalleryOptions1)">
+					<img src='images/thumbstrip23.thumb.png' alt=''/>
+				</a>
+
+				<a class='highslide' href='images/thumbstrip24.jpg' title="Fjord landscape"	onclick="return hs.expand(this, miniGalleryOptions1)">
+					<img src='images/thumbstrip24.thumb.png' alt=''/></a>
+			</div>				
+		</div> 
+		<div class= "desayuno_contenido">
+			<p>
+			El desayuno contiene:
+			<ul>
+				<li>Tortilla de huevo o Sánduche</li>
+				<li>Café o chocolate</li>
+				<li>Jugo de naranja 100% natural</li>
+				<li>Cereal con yogurth</li>
+			</ul>
+			</p>
+		</div>				
+	</section>
 
 	<script type="text/javascript" src="../highslide/highslide-with-gallery.js"></script>
 	<script type="text/javascript">
