@@ -1,9 +1,9 @@
 <?php
-@$nombre = addslashes($_POST['nombre']);
-@$apellido = addslashes($_POST['apellido']);
-@$email = addslashes($_POST['email']);
-@$telefono = addslashes($_POST['telefono']);
-@$mensaje = addslashes($_POST['mensaje']);
+$nombre = addslashes($_POST['nombre']);
+$apellido = addslashes($_POST['apellido']);
+$email = addslashes($_POST['email']);
+$telefono = addslashes($_POST['telefono']);
+$mensaje = addslashes($_POST['mensaje']);
  
 //Preparamos el mensaje de contacto
 $cabeceras = "From: $email\n" //La persona que envia el correo
@@ -19,7 +19,7 @@ $contenido = "$nombre ha enviado un mensaje desde la web www.miweb.com\n"
 . "\n";
  
 //Enviamos el mensaje y comprobamos el resultado
-if (@mail($email_to, $asunto ,$contenido ,$cabeceras )) {
+if (mail($email_to, $asunto ,$contenido ,$cabeceras )) {
  
 //Si el mensaje se envía muestra una confirmación
 die("Gracias, su mensaje se envio correctamente.");
