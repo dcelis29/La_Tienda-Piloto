@@ -31,10 +31,24 @@
 
 	<!------------------------Formulario---------------------------->
 
-	<form id="contenido" class="form_contacto">
-		<input type="text" placeholder="Ingrese Nombre">
-		<input type="email" placeholder="Ingrese correo electrónico">
-		<input type="submit" value="Enviar">
+	<form action="formulario.php" class="form_contacto" id="contenido" method="post">
+		<h1>Contacto</h1>	
+		<hr>
+		<p>Puedes comunicarte con nosotros a través de las redes sociales</p>
+		<ul class="form_social">
+			<li><a href="https://www.facebook.com/latiendaquindio?ref=hl" class="icon-facebook2" target="_blank"></a></li>
+			<li><a href="https://instagram.com/latiendaquindio/" class="icon-instagram" target="_blank"></a></li>
+			<li><a href="https://twitter.com/LaTiendaQuindio" class="icon-twitter" target="_blank"></a></li>	
+		</ul>
+		<hr>
+		<p>Solicita tu domicilio</p>
+		<input type="text" name="nombre" placeholder="Nombre" class="form_nombre"required><br>
+		<input type="text" name="apellido" placeholder="Apellido" class="form_apellido" required><br>		
+		<input type="email" name="email" placeholder="Email" class="form_email" required><br>
+		<input type="tel" name="telefono" placeholder="Teléfono" class="form_tel" required><br>
+		<textarea name="mensaje" placeholder="Mensaje" class="form_mensaje" required></textarea><br>
+		
+		<input type="submit" value="Contáctame "class="form_submit">
 	</form>
 
 <!-----------------------Section desayunos---------------------------->

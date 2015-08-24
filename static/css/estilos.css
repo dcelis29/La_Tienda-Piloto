@@ -68,7 +68,7 @@ body{
 
 /***************************Header*******************************/
 
-header{
+header{	
 	background: url(../images/fondos/fondo.jpg);
 	color: #790909;
 	height: 25em;
@@ -87,6 +87,7 @@ hr{
 	text-align: center;
 	width: 80%;
 	margin-bottom: 1em;
+	border: solid 2px #5D4E4E;
 }
 
 figure{
@@ -145,9 +146,73 @@ img{
 /***************************form contacto **************/
 
 .form_contacto{
+	background: #F3F3F3;
+	padding-bottom: 2em;
 	display: none;
 	text-align: center;
+	width: 80%;
+	margin: auto;
 }
+	.form_contacto h1{	
+		text-align: center;
+		color: #790909;
+		margin-top:0.5em;
+		padding-top: 0.5em;	
+		text-transform: uppercase;
+	}
+	.form_social{
+		margin: 0;
+		padding: 0;
+	}
+	.form_social li{
+			list-style: none;
+			display: inline-block;
+			padding: 1.5rem;
+			font-size: 4rem;
+		}
+
+		.form_social a{
+			text-decoration: none;
+			color: olive;
+		}
+	.form_nombre, .form_apellido, .form_email, .form_tel, .form_mensaje{
+		width: 25em;
+	    padding: 0.5em;
+	    margin: 0.5em 0;
+	    border-radius: 5%;
+	    border: 1px solid #790909;
+	}
+	.form_submit{
+	   border-top: 1px solid #ffffff;
+	   background: olive;
+	   background: -webkit-gradient(linear, left top, left bottom, from(olive), to(olive));
+	   background: -webkit-linear-gradient(top, olive, olive);
+	   background: -moz-linear-gradient(top, olive, olive);
+	   background: -ms-linear-gradient(top, olive, olive);
+	   background: -o-linear-gradient(top, olive, olive);
+	   padding: 5px 10px;
+	   -webkit-border-radius: 8px;
+	   -moz-border-radius: 8px;
+	   border-radius: 8px;
+	   -webkit-box-shadow: rgba(0,0,0,1) 0 1px 0;
+	   -moz-box-shadow: rgba(0,0,0,1) 0 1px 0;
+	   box-shadow: rgba(0,0,0,1) 0 1px 0;
+	   text-shadow: rgba(0,0,0,.4) 0 1px 0;
+	   color: white;
+	   font-size: 14px;
+	   font-family: Georgia, Serif;
+	   text-decoration: none;
+	   vertical-align: middle;
+	   }
+	.form_submit:hover {
+	   border-top-color: #a19764;
+	   background: #790909	;
+	   color: white;
+	   }
+	.form_submit:active {
+	   	position: relative;
+		top: 2px
+	   }
 /***************************Galeria*******************************/
 .galeria{
 	margin-bottom: 2em;
