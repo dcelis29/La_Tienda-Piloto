@@ -1,9 +1,9 @@
 <?php
-$nombre = addslashes($_POST['nombre']);
-$apellido = addslashes($_POST['apellido']);
-$email = addslashes($_POST['email']);
-$telefono = addslashes($_POST['telefono']);
-$mensaje = addslashes($_POST['mensaje']);
+$nombre = $_POST['nombre'];
+$apellido = $_POST['apellido'];
+$email = $_POST['email'];
+$telefono = $_POST['telefono'];
+$mensaje = $_POST['mensaje'];
  
 //Preparamos el mensaje de contacto
 $cabeceras = "From: $email\n" //La persona que envia el correo
