@@ -22,10 +22,15 @@ $contenido = "$nombre ha enviado un mensaje desde la web www.miweb.com\n"
 if (mail($email_to, $asunto ,$contenido ,$cabeceras )) {
  
 //Si el mensaje se envía muestra una confirmación
-die("Gracias, su mensaje se envio correctamente.");
+?>
+<script>alert("Gracias, su mensaje se envio correctamente.")</script>
+<?php
+die();
 }else{
- 
+?>
 //Si el mensaje no se envía muestra el mensaje de error
-die("Error: Su información no pudo ser enviada, intente más tarde");
+<script>alert("Error: Su información no pudo ser enviada, intente más tarde")</script>
+<?php
+die();
 }
 ?>
