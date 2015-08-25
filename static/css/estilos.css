@@ -298,17 +298,14 @@ img{
 	background: white;
 	height: 30em;
 	padding-top: 1em;
-	margin-top: 2em;
+	margin-top: 2em;	
+}
+.desayuno-contenedor{
+	background: olive;
+	margin: auto;
+	width: 80%;
 	position: relative;
 }
-	
-	.ir_home{		
-		position: fixed;		
-		color: #790909;
-		margin: 0;
-		padding: 0;
-	}
-
 	.desayuno{
 		text-align: center;
 	}
@@ -320,7 +317,7 @@ img{
 	}
 
 	.desayuno_descripcion{
-		width: 63%;
+		width: 80%;
 		height: 26.6em;		
 		margin: 0 auto;
 		position: relative;
@@ -339,12 +336,12 @@ img{
 		color: #903C3F; 
 		position: absolute;
 		top: 7em;
-		left: 62em;
+		left: 55em;
 	}
 	.desayuno_contenido ul{
 		position: absolute;
 		top: 10em;
-		left: 61em;
+		left: 55em;
 		text-align: justify;
 	}
 	
