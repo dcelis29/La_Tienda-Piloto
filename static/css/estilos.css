@@ -515,15 +515,25 @@ footer{
 /**Cambiar imagénes paulatinamente**/
 
 	@keyframes cfFadeInOut {
-	0% {
-	  opacity:1;
+		0% {
+		  opacity:1;
+		}
+		25% {
+			opacity:1;
+		}
+		75% {
+			opacity:0;
+		}
+		100% {
+		  opacity:0;
+		}
+
 	}
-	25% {
-		opacity:1;
-	}
-	75% {
-		opacity:0;
-	}
-	100% {
-	  opacity:0;
+
+	.EnConstruccion{
+		background: url(../images/enconstruccion.jpg) no-repeat;
+		background-size: cover;
+		height: 40em;
+		width: 50%;
+		margin: auto;
 	}
