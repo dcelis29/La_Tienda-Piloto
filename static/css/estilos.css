@@ -531,10 +531,22 @@ footer{
 	}
 
 	.EnConstruccion{
-		background: url(../images/enconstruccion.jpg) no-repeat;
+		background: url(../images/enconstruccion1.jpg) no-repeat;
 		background-size: cover;
 		height: 37em;
-		width: 45%;
+		width: 100%;
 		margin: auto;
 		text-align: center;
 	}
+	@media screen and (min-width: 1000px){
+		.EnConstruccion{
+			background: url(../images/enconstruccion.jpg) no-repeat;
+			background-size: cover;
+			height: 37em;
+			width: 45%;
+			margin: auto;
+			text-align: center;
+		}
+	}
+
+	
