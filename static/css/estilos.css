@@ -542,10 +542,9 @@ footer{
 		.EnConstruccion{
 			background: url(../images/enconstruccion.jpg) no-repeat;
 			background-size: cover;
-			height: 37em;
-			width: 45%;
-			margin: auto;
-			text-align: center;
+			height: 44em;
+			width: 55em;
+			margin: 0 auto;
 		}
 	}
 
